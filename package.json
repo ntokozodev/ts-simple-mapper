@@ -1,7 +1,7 @@
 {
   "name": "ts-simple-mapper",
   "description": "A lightweight utility for mapping object properties between different shapes",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "type": "module",
   "scripts": {
     "build": "tsup",
@@ -17,7 +17,8 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
   },
   "files": [
